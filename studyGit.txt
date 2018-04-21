@@ -2,4 +2,6 @@
 2.创建版本库:git init
 3.git add:将工作区文件保存到缓冲区
 4.git commit:将缓冲区文件提交到当前分支上
-
+5.如果缓冲区中没有任何东西的话,git commit 什么也不做
+6.git status :查看当前工作区状态
+7.如果只是在工作区改动了,但是没有git add ,那么git commit同样什么也不做

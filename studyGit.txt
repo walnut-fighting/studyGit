@@ -22,4 +22,8 @@
 21.git branch -d dev:删除分支
 22.git log --graph:查看分支合并图
 23.git merge --no-ff -m "merge with no-ff" dev:没明白这是什么作用
+24.git stash:需要将工作区内容放到缓存区才能使用git stash
+25.git stash list:查看git stash 的历史记录
+26.git stash apply stash@{0}:恢复指定stash堆栈里的记录,stash内容不会被删除,需要使用git stash drop来删除
+27.git stash pop:恢复的同时也把stash内容删了
 

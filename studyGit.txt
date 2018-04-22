@@ -17,3 +17,5 @@
 16.关联后使用命令git push -u origin master 第一次推送master分支的所有内容,此后每一次本地提交后,只要有必要,就可以使用git push origin master推送最新修改
 17.从远程库克隆,git clone git地址,将远程库克隆到本地
 18.git checkout -b 分支名 创建新分支并切换到新分支
+19.git merge dev :合并指定分支到dev分支
+

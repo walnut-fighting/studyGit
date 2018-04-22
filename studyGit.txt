@@ -18,6 +18,6 @@
 17.从远程库克隆,git clone git地址,将远程库克隆到本地
 18.git checkout -b 分支名 创建新分支并切换到新分支
 19.git merge dev :合并指定分支到dev分支
-20.git merge:有冲突时需要先解决冲突才能合并
+20.git merge:有冲突时需要先解决冲突才能合并,合并完以后以前的分支不变,现在的分支拥有了合并分支的特性
 21.git branch -d dev:删除分支
 

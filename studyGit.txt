@@ -20,4 +20,4 @@
 19.git merge dev :合并指定分支到dev分支
 20.git merge:有冲突时需要先解决冲突才能合并,合并完以后以前的分支不变,现在的分支拥有了合并分支的特性
 21.git branch -d dev:删除分支
-
+22.git log --graph:查看分支合并图

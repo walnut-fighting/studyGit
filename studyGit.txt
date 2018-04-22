@@ -26,4 +26,4 @@
 25.git stash list:查看git stash 的历史记录
 26.git stash apply stash@{0}:恢复指定stash堆栈里的记录,stash内容不会被删除,需要使用git stash drop来删除
 27.git stash pop:恢复的同时也把stash内容删了
-
+28.git branch -D dev:修改的dev分支没有被合并,强行删除dev分支,如果分支合并了可以使用git branch -d dev来删除

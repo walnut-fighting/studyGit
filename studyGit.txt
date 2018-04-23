@@ -27,3 +27,13 @@
 26.git stash apply stash@{0}:恢复指定stash堆栈里的记录,stash内容不会被删除,需要使用git stash drop来删除
 27.git stash pop:恢复的同时也把stash内容删了
 28.git branch -D dev:修改的dev分支没有被合并,强行删除dev分支,如果分支合并了可以使用git branch -d dev来删除
+29.git tag <tagName>:创建一个标签,默认是在最近一次的commit上创建标签
+30.git tag <tagName> commit_id:在指定的commit上创建标签
+31.git tag -a <tagName> -m "":-a参数+标签名,-m参数+描述
+32.git tag :查看所有标签
+33.git show <tagName>:查看指定tagName的commit信息
+34.git tag -d <tagName>:删除标签
+35.git push origin <tagName>:推送某个标签到远程
+36.git push origin --tag:推送所有标签到远程
+37.git push origin :/ref/tags/<tagName>:删除远程标签
+38.
